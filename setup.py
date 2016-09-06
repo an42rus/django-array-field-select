@@ -8,7 +8,7 @@ def read(filename):
 
 setup(
     name='django-array-field-select',
-    version='0.1.3',
+    version='0.2.0',
     description=('A replacement for Django\'s ArrayField with a multiple '
                  'select form field.'),
     long_description=read('README.rst'),
@@ -20,6 +20,7 @@ setup(
     install_requires=['Django>=1.8'],
     classifiers=[
         'Framework :: Django',
+        'Programming Language :: Python :: 2'
         'Programming Language :: Python :: 3'
     ]
 )
