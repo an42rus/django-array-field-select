@@ -4,6 +4,13 @@ About
 A replacement for Django's ArrayField with a multiple select form field.  This
 only makes sense if the underlying base_field is using choices.
 
+Installation
+============
+
+.. code:: bash
+
+    pip install django-array-field-select
+
 How To Use
 ==========
 Replace all instances of your Django ArrayField model field with the new
